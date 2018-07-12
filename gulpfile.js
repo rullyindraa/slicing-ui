@@ -50,7 +50,7 @@ gulp.task('server', function() {
 gulp.task('watch', function() {
   gulp.watch('./public/assets/javascripts/*.js', ['minify-js']);
   gulp.watch('./public/assets/css/*.css', ['minify-css']);
-  gulp.watch('./views/templates/*.html', ['minify-html']);
+  gulp.watch('./views/*.html', ['minify-html']);
 });
 
 gulp.task('default', ['watch', 'server']);

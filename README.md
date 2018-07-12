@@ -2,9 +2,10 @@
 
 This project is about slicing TechId UI into HTML using Tailwind CSS Framework.
 
-## Installation
+## Setting Up into your local
 
 - Clone the Repository.
+- Change your directory into this repository directory.
 - Run `npm install`.
 - Run `gulp build`.
 - Run `gulp server`.
